@@ -1,0 +1,44 @@
+{
+  "id": "NnPS2Kn4LIuPmCYLB3vUJEavogB",
+  "name": "alert1",
+  "org_id": "default",
+  "stream_type": "logs",
+  "stream_name": "default",
+  "is_real_time": false,
+  "query_condition": {
+    "type": "custom",
+    "conditions": [],
+    "sql": "select pod_id from 'default'",
+    "promql": null,
+    "promql_condition": null,
+    "aggregation": null,
+    "vrl_function": null,
+    "search_event_type": null,
+    "multi_time_range": null
+  },
+  "trigger_condition": {
+    "period": 10,
+    "operator": ">=",
+    "threshold": 3,
+    "frequency": 1,
+    "cron": "",
+    "frequency_type": "minutes",
+    "silence": 10,
+    "tolerance_in_secs": null
+  },
+  "destinations": [
+    "test111"
+  ],
+  "context_attributes": {
+    "a": "b"
+  },
+  "row_template": "",
+  "description": "",
+  "enabled": false,
+  "tz_offset": 0,
+  "last_triggered_at": null,
+  "last_satisfied_at": null,
+  "owner": null,
+  "last_edited_by": null,
+  "uuid": "e6e98b60-41bf-407d-ad9c-b725ac198f82"
+}
