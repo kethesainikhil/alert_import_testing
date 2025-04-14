@@ -1,0 +1,74 @@
+[
+  {
+    "version": 5,
+    "dashboardId": "7317456416376095327",
+    "title": "dashboard-test_1744617595085",
+    "description": "",
+    "role": "",
+    "owner": "",
+    "created": "2025-04-14T07:59:59.058Z",
+    "tabs": [
+      {
+        "tabId": "default",
+        "name": "Default",
+        "panels": []
+      }
+    ],
+    "variables": {
+      "list": [],
+      "showDynamicFilters": true
+    },
+    "defaultDatetimeDuration": {
+      "type": "relative",
+      "relativeTimePeriod": "15m"
+    }
+  },
+  {
+    "version": 5,
+    "dashboardId": "7317450291647874951",
+    "title": "dashboard-test_1744616202385",
+    "description": "",
+    "role": "",
+    "owner": "",
+    "created": "2025-04-14T07:36:46.507Z",
+    "tabs": [
+      {
+        "tabId": "default",
+        "name": "Default",
+        "panels": []
+      }
+    ],
+    "variables": {
+      "list": [],
+      "showDynamicFilters": true
+    },
+    "defaultDatetimeDuration": {
+      "type": "relative",
+      "relativeTimePeriod": "15m"
+    }
+  },
+  {
+    "version": 5,
+    "dashboardId": "7317448340688342989",
+    "title": "dashboard-test_1744615867039",
+    "description": "",
+    "role": "",
+    "owner": "",
+    "created": "2025-04-14T07:31:12.331Z",
+    "tabs": [
+      {
+        "tabId": "default",
+        "name": "Default",
+        "panels": []
+      }
+    ],
+    "variables": {
+      "list": [],
+      "showDynamicFilters": true
+    },
+    "defaultDatetimeDuration": {
+      "type": "relative",
+      "relativeTimePeriod": "15m"
+    }
+  }
+]
