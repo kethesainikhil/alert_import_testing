@@ -1,0 +1,104 @@
+[
+  {
+    "name": "test",
+    "org_id": "default",
+    "stream_type": "logs",
+    "stream_name": "default",
+    "is_real_time": false,
+    "query_condition": {
+      "type": "custom",
+      "conditions": {
+        "or": [
+          {
+            "column": "job",
+            "operator": "contains",
+            "value": "test",
+            "ignore_case": true
+          }
+        ]
+      },
+      "sql": null,
+      "promql": null,
+      "promql_condition": null,
+      "aggregation": null,
+      "vrl_function": null,
+      "search_event_type": null,
+      "multi_time_range": []
+    },
+    "trigger_condition": {
+      "period": 10,
+      "operator": ">=",
+      "threshold": 1,
+      "frequency": 1,
+      "cron": "",
+      "frequency_type": "minutes",
+      "silence": 10,
+      "timezone": "UTC",
+      "tolerance_in_secs": null,
+      "align_time": true
+    },
+    "destinations": [
+      "test"
+    ],
+    "context_attributes": {},
+    "row_template": "",
+    "description": "",
+    "enabled": true,
+    "tz_offset": 0,
+    "last_triggered_at": 1762249873830660,
+    "last_satisfied_at": null,
+    "owner": "root@example.com",
+    "last_edited_by": "root@example.com"
+  },
+  {
+    "name": "test",
+    "org_id": "default",
+    "stream_type": "logs",
+    "stream_name": "default",
+    "is_real_time": false,
+    "query_condition": {
+      "type": "custom",
+      "conditions": {
+        "or": [
+          {
+            "column": "job",
+            "operator": "contains",
+            "value": "test",
+            "ignore_case": true
+          }
+        ]
+      },
+      "sql": null,
+      "promql": null,
+      "promql_condition": null,
+      "aggregation": null,
+      "vrl_function": null,
+      "search_event_type": null,
+      "multi_time_range": []
+    },
+    "trigger_condition": {
+      "period": 10,
+      "operator": ">=",
+      "threshold": 1,
+      "frequency": 1,
+      "cron": "",
+      "frequency_type": "minutes",
+      "silence": 10,
+      "timezone": "UTC",
+      "tolerance_in_secs": null,
+      "align_time": true
+    },
+    "destinations": [
+      "test"
+    ],
+    "context_attributes": {},
+    "row_template": "",
+    "description": "",
+    "enabled": true,
+    "tz_offset": 0,
+    "last_triggered_at": 1762249873830660,
+    "last_satisfied_at": null,
+    "owner": "root@example.com",
+    "last_edited_by": "root@example.com"
+  }
+]
